@@ -1,0 +1,8 @@
+name: Statistics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
