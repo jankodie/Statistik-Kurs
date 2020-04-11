@@ -6,3 +6,5 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - pandas
+  - seaborn
