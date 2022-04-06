@@ -1,4 +1,4 @@
-name: Statistics
+name: statistics
 channels:
   - conda-forge
   - defaults
@@ -9,3 +9,5 @@ dependencies:
   - pandas
   - seaborn
   - pillow
+  - jupyter
+  - jupyterlab
