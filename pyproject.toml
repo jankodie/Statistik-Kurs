@@ -1,0 +1,16 @@
+[project]
+name = "Statistik-Kurs"
+version = "0.1.0"
+description = "Begleitendes bzw. ergänzendes Material für einen Statistik Kurs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.5.6",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "pillow>=12.1.1",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+]
