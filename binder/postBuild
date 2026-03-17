@@ -5,4 +5,4 @@ source $HOME/.cargo/env
 # Lockfile synchronisieren
 uv sync
 # Kernel registrieren
-uv run python -m ipykernel install --user --name=stastics --display-name="Statistics"
+uv run python -m ipykernel install --user --name=statistics --display-name="Statistics"
