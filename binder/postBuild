@@ -1,0 +1,8 @@
+#!/bin/bash
+# UV installieren
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.cargo/env
+# Lockfile synchronisieren
+uv sync
+# Kernel registrieren
+uv run python -m ipykernel install --user --name=stastics --display-name="Statistics"
